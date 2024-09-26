@@ -1,0 +1,33 @@
+Algoritmo "divisores"
+
+Var
+
+ //seção de declaração das variáveis
+   a, b : inteiro
+   divisao_int, resto : inteiro
+   
+   c, d : real
+   divisao_r : real
+   divisao1, divisao2 : real
+
+Inicio
+
+ //entrada de dados da divisão inteira
+ 
+  a <- 5
+  b <- 2
+  
+  divisao_int <- a \ b
+  resto <- a MOD b
+  
+ //entrada de dados da divisão real
+ 
+  c <- 5
+  d <- 2
+  
+  divisao_r <-  c / d
+  divisao1 <- a / b
+  divisao2 <- c \ d
+
+
+Fimalgoritmo
