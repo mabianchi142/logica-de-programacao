@@ -1,0 +1,31 @@
+Algoritmo "somadoisnumeros"
+
+Var
+// Seção de Declarações das variáveis 
+
+   A: inteiro
+   B, C: inteiro
+
+Inicio
+
+   //fase de entrada de dados
+
+   //comando de saída
+   escreval("Vamos somar dois numeros")
+
+   escreva("Digite um numero: ")
+   
+   leia(A)
+
+   escreva("Digite outro numero: ")
+
+   leia(B)
+   
+  //processamento
+  C <- A + B
+  
+   //fase saída de dados
+   escreval("Resultado da soma")
+   escreval(C)
+
+Fimalgoritmo
