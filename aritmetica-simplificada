@@ -1,0 +1,77 @@
+Algoritmo "exer_1sozinha"
+
+Var
+
+// Seção de Declarações das variáveis
+
+ A, B, soma, subtracao, multiplicacao, divisao: real
+
+Inicio
+//comando de entrada de dados
+
+  escreval("Vamos realizar quatro operacoes!")
+
+  escreva("Primeiro, digite um numero: ")
+    leia(A)
+  
+  escreva("Agora, digite outro numero: ")
+    leia(B)
+    
+    //processamento
+     soma <- A + B
+
+    //saída de dados
+     escreval("Soma = ", soma)
+
+  //comando de entrada de dados
+
+     escreval("Agora, a subtracao!")
+
+     escreva("Digite o mesmo numero: ")
+       leia(A)
+     
+     escreva("Digite o mesmo outro numero: ")
+       leia(B)
+
+  //processamento
+   subtracao <- A - B
+
+  //comando de saída de dados
+   escreval("Subtracao = ", subtracao)
+
+//comando de entrada de dados
+
+  escreval("Agora, a multiplicacao")
+
+  escreva("Digite o mesmo numero: ")
+     leia(A)
+    
+  escreva("Digite o mesmo outro numero: ")
+     leia(B)
+     
+     //processamento
+  multiplicacao <- A * B
+  
+  //saída de dados
+  
+   escreval("Multiplicacao = ", multiplicacao)
+   
+   //comando de entrada de dados
+   
+    escreval("Agora, e por ultimo, a divisao")
+    
+    escreva("Digite o mesmo numero: ")
+       leia(A)
+
+    escreva("Digite o outro mesmo numero: ")
+       leia(B)
+       
+   //processamento
+   divisao <- A / B
+
+  //comando de saída de dados
+     escreval("divisao = ", divisao)
+     escreva("Parabens! Voce fez as quatro operacoes")
+
+
+Fimalgoritmo
