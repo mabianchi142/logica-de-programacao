@@ -1,0 +1,33 @@
+Algoritmo "operacoes_reais_EX7"
+
+Var
+//seção de Declarações das variáveis
+
+  n1, n2, n3 : real
+  soma, subtracao : real
+  multiplicacao, divisao : real
+
+Inicio
+//entrada de dados: valores
+
+  n1 <- 10
+  n2 <- 0.5
+  n3 <- 2.5
+  
+//entrada de dados: operações
+
+  soma <- n1 + n2 + n3
+  subtracao <- n1 - n2 - n3
+  multiplicacao <- n1 * n2 * n3
+  divisao <- n1 / n2 / n3
+  
+//saída de dados
+
+ escreval("Olá! Aqui está o resultado das operações")
+
+ escreval("Soma = ", soma)
+ escreval("Subtracao = ", subtracao)
+ escreval("Multiplicacao = ", multiplicacao)
+ escreva("Divisao = ", divisao)
+ 
+Fimalgoritmo
