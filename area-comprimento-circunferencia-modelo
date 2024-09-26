@@ -1,0 +1,30 @@
+Algoritmo "area-comprimento-circunferencia"
+
+var
+//seção de declaração das variáveis
+ 
+ A, C, raio : real
+
+Inicio
+//entrada de dados: comprimento
+//pi 3.14
+
+ escreval("Digite o valor do raio: ")
+   leia(raio)
+ 
+ C <- 2 * 3.14 * raio
+ 
+//saída de dados
+ escreval("Comprimento = ", C)
+
+//entrada de dados: área
+
+ escreval("Digite o valor do raio novamente: ")
+   leia(raio)
+   
+ A <- 3.14 * raio ^ 2
+ 
+//saída de dados
+ escreva("Area = ", A)
+ 
+ 
