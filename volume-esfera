@@ -1,0 +1,25 @@
+Algoritmo "volume-esfera"
+
+var
+//seção de declaração das variáveis
+    volume, raio : real
+
+Inicio
+//entrada de dados
+    //constante pi incluída
+    
+    escreva("Valor do raio: ")
+    leia(raio)
+    
+//processamento
+
+   volume <- 4/3 * pi * raio ^ 3
+   
+//saída de dados
+
+   escreva("Volume = ", volume)
+   
+   
+   
+
+Fimalgoritmo
